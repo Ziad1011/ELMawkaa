@@ -1,0 +1,250 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+    
+}
+
+.navbar li{
+    padding-left: 30px;
+}
+.navbar .btn-light{
+color: #FF5100;
+font-weight: bold;
+
+}
+.navbar .btn-primary{
+    background: #ff5100;
+    color: white;
+    width: 150px;
+    height: 40px;
+    border-radius: 15px;
+    font-weight: bold;
+    border-style: none;
+}
+
+  button.mt-5{
+    background-color: #FF5100;
+    padding: 15px 30px;
+    border-radius: 10px;
+    margin-left: 100px;
+    cursor: pointer;
+    border-style: none;
+}
+  button.text{
+    background-color: white;
+    padding: 15px 30px;
+    border-radius: 10px;
+    margin-left: 100px;
+    cursor: pointer;
+    color: #FF5100;
+}
+.container .zz{
+  margin-top: 10rem;
+  margin-left: 5rem;
+  font-weight: bold;
+  color: steelblue;
+  font-size: 55px;
+}
+.container .pp{
+  margin-top: 3rem;
+  margin-left: 5rem;
+  font-size: 20px;
+}
+.container .img-fluid{
+  margin-left: 5rem;
+}
+.nn{
+  font-size: 40px;
+  width: 400px;
+  font-family: "Montserrat",-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Oxygen-Sans,Ubuntu,Cantarell,'Helvetica Neue',sans-serif;
+  color: #004A9B;
+}
+.cc{
+  font-size: 22px;
+  width: 400px;
+  color: #576D89
+}
+.xx{
+  color: #FF5100;
+  font-weight: bold;
+  font-size: 20px;
+}
+.ll{
+  font-size: 50px;
+  width: 500px;
+  font-family: "Montserrat",-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Oxygen-Sans,Ubuntu,Cantarell,'Helvetica Neue',sans-serif;
+  color: #004A9B;
+  text-align: justify;
+}
+.ccc{
+  font-size: 20px;
+  width: 350px;
+  color: #576D89
+}
+.xxx{
+  color: #FF5100;
+  font-weight: bold;
+  font-size: 20px;
+}
+.card{
+  background:red;
+}
+ul{
+  margin-left: 300px;
+}
+.kk{
+  margin-bottom: 150px;
+}
+.gg{
+  position: relative;
+  bottom: -50px;
+}
+.zzzz{
+  position: relative;
+  top: 50px;
+}
+.navbar{
+  width: 100%;
+}
+
+.ss{
+  margin-top: 80px;
+  padding-left: 80px;
+  padding-right: 80px;
+  
+  
+  
+
+}
+.blue-card{
+  border-radius: 30px;
+ position: relative;
+ left: 65px;
+  height: 400px;
+  padding-top: 150px;
+  background-color: #004A9B;
+  position: relative;
+  
+  
+  
+}
+.blue-card h1{
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin-bottom: 20px;
+  color: white;
+  position: relative;
+  bottom: 50px;
+}
+.blue-card p{
+  color: gray;
+  font-size: 22px;
+  position: relative;
+  
+}
+.blue-card .btn{
+  margin-top: 30px;
+  text-align: center;
+}
+.blue-card .btn a{
+  color: white;
+background-color:#FF5100;
+padding: 20px 80px;
+border-radius: 20px;
+margin-right: 5px;
+}
+
+
+
+
+section .section-title {
+  text-align: center;
+  
+  margin-bottom: 50px;
+  text-transform: uppercase;
+
+  
+  
+}
+#footer {
+  background:white !important;
+  margin-top:300px;
+  margin-left: 10px;
+  
+}
+#footer h5{
+padding-left: 10px;
+  border-left: 3px solid #004A9B;
+  padding-bottom: 6px;
+  margin-bottom: 20px;
+  margin-top: 50px;
+  color:#004A9B;
+}
+#footer a {
+  color: #004A9B;
+  text-decoration: none !important;
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+}
+#footer ul.social li{
+padding: 3px 0;
+
+}
+#footer ul.social li a i {
+  margin-right:50px;
+font-size:25px;
+-webkit-transition: .5s all ease;
+-moz-transition: .5s all ease;
+transition: .5s all ease;
+}
+#footer ul.social li:hover a i {
+font-size:30px;
+margin-top:-10px;
+}
+#footer ul.social li a,
+#footer ul.quick-links li a{
+color:#004A9B;
+margin-left: -300px;
+}
+#footer ul.social li a:hover{
+color:#004A9B;
+}
+#footer ul.quick-links li{
+padding: 3px 0;
+-webkit-transition: .5s all ease;
+-moz-transition: .5s all ease;
+transition: .5s all ease;
+}
+#footer ul.quick-links li:hover{
+padding: 3px 0;
+margin-left:5px;
+font-weight:700;
+}
+#footer ul.quick-links li a i{
+margin-right: 5px;
+}
+#footer ul.quick-links li:hover a i {
+  font-weight: 700;
+}
+
+@media (max-width:767px){
+#footer h5 {
+  padding-left: 0;
+  border-left: transparent;
+  padding-bottom: 0px;
+  margin-bottom: 10px;
+  color: #004A9B;
+  
+}
+}
+
+
+
+
+
+
+
+
+
+
+
