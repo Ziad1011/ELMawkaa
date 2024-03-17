@@ -1,0 +1,954 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    
+}
+/*start nav*/
+.nav{
+    width: 100%;
+    height: 700px;
+    background-color: #fbf7ed;
+   
+}
+
+.nav i{
+    font-size: 39px;
+    color: #95bf47;
+    margin-left: 70px;
+    margin-top:  22px;
+}
+.nav h1{
+    color: black;
+    font-size: 25px;
+    
+    font-family: 'Kanit', sans-serif;
+    font-weight: bolder;
+    margin-left: 108px;
+    position: absolute;
+    top:25px;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: black;
+   
+}
+.nav ul li{
+    display: inline-block;
+    position: relative;
+    left: 230px;
+    bottom: 24px;
+    padding: 0px 18px;
+    font-size: 18px;
+}
+.nav .sub-menu1{
+    width: 250px;
+    height: 190px;
+    background-color: white;
+    position: absolute;
+    top: 75px;
+    left: 230px;
+}
+.sub-menu1 ul li{
+    display: block;
+   position: relative;
+   left: 10px;
+   top: 33px;
+   padding: 10px;
+   font-size: 17px;
+   font-weight: bold;
+  
+    
+    
+}
+.sub-menu1 ul li a{
+    color: #42474c;
+}
+.sub-menu1 p{
+    margin-left: 22px;
+    font-size: 17px;
+   position: relative;
+   top: 15px;
+   color: #42474c;
+   cursor: pointer;
+   font-weight: bold;
+}
+.sub-menu1 p:hover{
+    background-color: #f0f1f2;
+}
+.sub-menu1 hr{
+    width: 200px;
+    position: relative;
+    left: 20px;
+    top: 30px;
+}
+.sub-menu1 ul li:hover
+{background-color: #f0f1f2;
+width: 220px;
+}
+.sub-menu1{
+    display: none;
+    z-index: 1000;
+}
+.sub-menu2{
+    width: 250px;
+   position: absolute;
+   left: 270px;
+   top: 70px;
+   height: 350px;
+   background-color: white;
+}
+.sub-menu2 ul li{
+    display: block;
+    position: relative;
+    left: 5px;
+    bottom: -9px;
+    padding: 10px;
+    font-size: 17px;
+    font-weight: bold;
+}
+.sub-menu2 ul li a{
+    color: #42474c;;
+}
+.sub-menu2 p{
+    color: #42474c;
+    font-size: 17px;
+    font-weight: bold;
+    position: relative;
+    left: 17px;
+    bottom: -10px;
+}
+.sub-menu2 hr{
+    position: relative;
+    top: 13px;
+    width: 200px;
+    left: 20px;
+}
+.sub-menu2 p:hover{
+    background-color: #f0f1f2;
+}
+.sub-menu2 ul li:hover{
+    background-color: #f0f1f2;
+    color: black;
+}
+.sub-menu2{
+    display: none;
+    z-index: 1000;
+}
+.sub-menu3{
+    width: 250px;
+    height: 250px;
+    background-color: white;
+    position: absolute;
+    left: 340px;
+    top: 70px;
+}
+.sub-menu3 p{
+    color: #42474c;
+    font-size: 17px;
+    font-weight: bold;
+    position: relative;
+    left: 17px;
+    bottom: -10px;
+}
+.sub-menu3 hr{
+    width: 200px;
+    position: relative;
+    top: 20px;
+    color: #f0f1f2;
+    left: 20px;
+}
+.sub-menu3 ul li{
+    display: block;
+    position: relative;
+    left: 6px;
+    bottom: -19px;
+    padding: 10px;
+    font-size: 17px;
+    font-weight: bold;
+}
+.sub-menu3 ul li a{
+    color: #42474c;
+}
+.sub-menu3 p:hover{
+    background-color: #f0f1f2;
+}
+.sub-menu3 ul li:hover{
+    background-color: #f0f1f2;
+    color: black;
+}
+.sub-menu3{
+    display: none;
+    z-index: 1000;
+}
+.sub-menu4{
+    width: 250px;
+    height: 240px;
+    background-color: white;
+    position: absolute;
+    left: 410px;
+    top: 70px;
+}
+.sub-menu4 p{
+    color: #42474c;
+    font-size: 17px;
+    font-weight: bold;
+    position: relative;
+    left: 17px;
+    bottom: -10px;
+}
+.sub-menu4 hr{
+    width: 200px;
+    position: relative;
+    top: 20px;
+    color: #f0f1f2;
+    left: 20px;
+}
+.sub-menu4 ul li{
+    display: block;
+    position: relative;
+    left: 6px;
+    bottom: -19px;
+    padding: 10px;
+    font-size: 17px;
+    font-weight: bold;
+}
+.sub-menu4 ul li a{
+    color: #42474c;
+}
+.sub-menu4 p:hover{
+    background-color: #f0f1f2;
+}
+.sub-menu4 ul li:hover{
+    background-color: #f0f1f2;
+    color: black;
+}
+.sub-menu4{
+    display: none;
+    
+}
+.list2{
+    position: absolute;
+    left: 790px;
+    top: 62px;
+}
+.nav .trial{
+position: absolute;
+left: 1300px;
+top: 40px;
+
+
+}
+.nav .trial a{
+    text-decoration: none;
+    color: white;
+    background-color: #008060;
+    padding: 13px 25px;
+    font-size: 18px;
+    font-weight: 10px;
+    border-radius: 5px;
+}
+.nav .platform{
+    color: #004c3f;
+    font-size: 50px;
+    width: 400px;
+    position: relative;
+    left: 65px;
+    top: 120px;
+    font-family: ShopifySans, Helvetica, Arial, sans-serif;
+    font-weight: bolder;
+    
+}
+.nav .platform .p1{
+    position: relative;
+    left: 1px;
+    top: 70px;
+    font-size: 18px;
+    width: 400px;
+    color: #6b7177;
+}
+.nav .images img{
+    position: absolute;
+    left: 665px;
+    top: 170px;
+    width: 800px; 
+   height: auto;
+}
+.nav .email input{
+    width: 430px;
+    height: 50px;
+    position: absolute;
+    left: 70px;
+    top: 480px;
+    border: 1px solid #004c3f;
+    border-radius: 5px;
+}
+.nav .email input::placeholder{
+    position: relative;
+    left: 30px;
+    font-size: 15px;
+}
+.nav .email a{
+    width: 430px;
+    position: absolute;
+    left: 70px;
+    top: 550px;
+    text-decoration: none;
+    background-color: #008060;
+    color: white;
+    height: 20px;
+    text-align: center;
+    border-radius: 5px;
+    font-weight: bolder;
+    font-size: 18px;
+    padding: 18px 0px;
+    
+}
+.nav .email a:hover{
+    background-color: #004c3f;
+}
+.nav .email p{
+    position: absolute;
+    left: 70px;
+    top: 630px;
+    color: #42474c;
+    width: 480px;
+    font-size: 15px;
+}
+.nav .navv{
+    position: fixed;
+    z-index: 5000;
+    background-color: #fbf7ed;
+    width: 100%;
+    height: 110px;
+}
+
+/*end nav*/
+/*start container*/
+.container{
+    background-color: #004c3f;
+    width: 100%;
+    height: 1450px;
+    
+}
+.container p{
+    color: white;
+    font-size: 35px;
+    position: absolute;
+    top: 810px;
+    left: 80px;
+    font-family: ShopifySans, Helvetica, Arial, sans-serif;
+}
+.container .p1{
+    color: white;
+    font-size: 16px;
+    position: absolute;
+    top: 865px;
+    left: 80px;
+}
+.container .p2{
+position: absolute;
+top: 865px;
+left: 1150px;
+font-size: 17px;
+}
+.container i{
+    position: absolute;
+top: 866px;
+left: 1340px;
+font-size: 17px;
+color: white;
+cursor: pointer;
+
+
+}
+.container .img1 {
+    position: absolute;
+    left: 55px;
+    top: 955px;
+}
+.container .p3{
+    position: absolute;
+    left: 55px;
+    top: 1450px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.container .p4{
+    position: absolute;
+    left: 55px;
+    top: 1480px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.container .img2{
+    position: absolute;
+    left: 335px;
+    top: 955px; 
+}
+.container .p5{
+    position: absolute;
+    left: 335px;
+    top: 1450px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.container .p6{
+    position: absolute;
+    left: 335px;
+    top: 1480px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.container .img3{
+    position: absolute;
+    left: 615px;
+    top: 955px; 
+}
+.container .p8{
+    position: absolute;
+    left: 615px;
+    top: 1450px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.container .p9{
+    position: absolute;
+    left: 615px;
+    top: 1480px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.container .img4{
+    position: absolute;
+    left: 895px;
+    top: 955px;    
+}
+.container .p10{
+    position: absolute;
+    left: 895px;
+    top: 1450px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.container .p11{
+    position: absolute;
+    left: 895px;
+    top: 1480px;
+    font-size: 16px;
+    cursor: pointer;
+} 
+.container .img5{
+    position: absolute;
+    left: 1176px;
+    top: 955px;       
+}
+.container .p12{
+    position: absolute;
+    left: 1176px;
+    top: 1450px;
+    font-size: 16px;
+    color: white;
+}
+.container .p13{
+    position: absolute;
+    left: 1176px;
+    top: 1480px;
+    font-size: 16px;
+    color: white;
+}
+.container .p14{
+    position: absolute;
+    left: 75px;
+    top: 1700px;
+}
+.container .st1 i{
+    color: #008060;
+    position: absolute;
+    left: 75px;
+    top: 1830px;
+    font-size: 35px;
+}
+.container .st1 p{
+    position: absolute;
+    left: 75px;
+    top: 1890px;
+    color: white;
+    font-size: 17px;
+}
+.container .st1 .p16{
+    position: absolute;
+    left: 75px;
+    top: 1920px;
+    color: #fffff3;
+    font-size: 15px;
+    width: 280px;
+}
+.container .st2 i{
+    color: #008060;
+    position: absolute;
+    left: 450px;
+    top: 1830px;
+    font-size: 35px;
+}
+.container .st2 p{
+    position: absolute;
+    left: 450px;
+    top: 1890px;
+    color: white;
+    font-size: 17px;
+}
+.container .st2 .p17{
+    position: absolute;
+    left: 450px;
+    top: 1920px;
+    color: #fffff3;
+    font-size: 15px;
+    width: 280px;
+}
+.container .st3 i{
+    color: #008060;
+    position: absolute;
+    left: 850px;
+    top: 1830px;
+    font-size: 35px;
+}
+.container .st3 p{
+    position: absolute;
+    left: 850px;
+    top: 1890px;
+    color: white;
+    font-size: 17px;
+}
+.container .st3 .p18{
+    position: absolute;
+    left: 850px;
+    top: 1920px;
+    color: #fffff3;
+    font-size: 15px;
+    width: 280px;
+}
+.container .st4 i{
+    color: #008060;
+    position: absolute;
+    left: 1200px;
+    top: 1830px;
+    font-size: 35px;
+}
+.container .st4 p{
+    position: absolute;
+    left: 1200px;
+    top: 1890px;
+    color: white;
+    font-size: 17px;
+}
+.container .st4 .p19{
+    position: absolute;
+    left: 1200px;
+    top: 1920px;
+    color: #fffff3;
+    font-size: 15px;
+    width: 280px;
+}
+.home{
+    width: 100%;
+    height: 1800px;
+    overflow: hidden;
+}
+.home p{
+    position: relative;
+    top: 150px;
+    text-align: center;
+    font-size: 35px;
+    font-family: ShopifySans, Helvetica, Arial, sans-serif;
+    font-weight: 8;
+}
+.home .p20{
+    position: relative;
+    top: 175px;
+    left: 500px;
+    text-align: center;
+    font-size: 18px;
+    width: 520px;
+    font-family: ShopifySans, Helvetica, Arial, sans-serif;
+    color: #6b7177;
+}
+.home .videos img{
+    position: relative;
+    top: 240px;
+    left: 110px;
+    width: 700px;
+}
+.home .videos h1{
+    position: relative;
+    top: -90px;
+    left: 900px;
+    font-size: 30px;
+    font-family: ShopifySans, Helvetica, Arial, sans-serif;
+    
+}
+.home .videos p{
+    position: relative;
+    top: -75px;
+    left: 860px;
+    width: 525px;
+    font-size: 18px;
+    text-align: justify;
+   
+} 
+.home .videos .p21{
+    position: relative;
+    top: -10px;
+    left: 890px;
+    font-size: 20px;
+    font-weight: bolder;
+    color: #004c3f;
+    cursor: pointer;
+}
+.home .videos i{
+    position: relative;
+    top: -30px;
+    left: 1110px;
+    color: #004c3f;
+    cursor: pointer;
+}
+.home .photo img{
+    position: relative;
+    
+    top: 110px;
+    left: 900px;
+    width: 500px;
+} .home .photo h1{
+    position: relative;
+    left: 220px;
+    top: -110px;
+    font-family: ShopifySans, Helvetica, Arial, sans-serif;
+}
+.home .photo p{
+    position: relative;
+    left: 210px;
+    top: -90px;
+    width: 550px;
+    font-size: 16px;
+    text-align: justify;
+}
+.home .photo .p22{
+ position: relative;
+ left: 220px;
+ top: -45px;
+ font-size: 20px;
+ font-weight: bolder;
+ color: #004c3f;  
+ cursor: pointer; 
+}
+.home .photo i{
+    position: relative;
+    left: 590px;
+    top: -65px;
+    font-size: 20px;
+    font-weight: bolder;
+    color: #004c3f;   
+    cursor: pointer;
+}
+.home .earth p{
+    color: black;
+    position: relative;
+    left: 120px;
+    bottom: 65px;
+    width: 550px;
+    text-align: justify;
+}
+.home .earth .p23{
+    color: #212326;
+    position: relative;
+    left: 125px;
+  top: 185px;
+    width: 550px;
+    font-size: 18px;
+    text-align: justify;
+}
+.home .earth .p23 span{
+    color: #212326;
+    font-weight: bold;
+    font-size: 25px;
+}
+/*end container*/
+.imagges .imagess1 img{
+width: 640px;
+height: 600px;
+position: relative;
+left: 170px;
+bottom:  40px;
+}
+.imagges .div1{
+    width: 640px;
+    height: 606px;
+    position: relative;
+    left: 800px;
+    bottom: 650px;
+    background-color:  #002e25;;
+}
+.imagges .div1 p{
+    color: white;
+    text-align: center;
+   position: absolute;
+   top: 120px;
+   left: 170px;
+   font-size: 28px;
+   width: 300px;
+
+}
+.imagges .div1 img{
+    position: absolute;
+    top: 320px;
+    left: 250px;
+    
+}
+.imagges .div1 .p24{
+    color: white;
+    position: absolute;
+    top: 430px;
+    left: 170px;
+    font-size: 22px;
+}
+.imagges .div1 a{
+    border: 1px solid white;
+    width: 310px;
+    height: 40px;
+    position: absolute;
+    left: 120px;
+    top: 490px;
+    text-decoration: none;
+    color: white;
+    padding: 10px 0px 0px 85px;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.imagges .div1 i{
+    position: absolute;
+    left: 150px;
+    top: 500px;
+    font-size: 30px;
+    color: white;
+    
+}.imagges .div1 a:hover{
+    background-color: white;
+    color: #002e25;
+}
+.images .div1 i:hover{
+    color: #002e25;
+    background-color: #002e25;
+}
+.produ{
+    position: relative;
+    top: -550px;
+   margin-left: 110px;
+   letter-spacing: 70px;
+}
+.business{
+    width: 100%;
+    height: 410px;
+    position: relative;
+    top: -470px;
+    background-color: white;
+}
+.business p{
+    text-align: center;
+    color: black;
+    font-size: 29px;
+    position: absolute;
+    top: 60px;
+    left: 480px;
+    font-family: sans-serif;
+}
+.business .p30{
+    color: #6b718d;
+    font-size: 20px;
+    position: absolute;
+    left: 350px;
+    top: 125px;
+    width: 800px;
+}
+.business a{
+    position: absolute;
+    left: 650px;
+    top: 250px;
+    text-decoration: none;
+    border: 1px solid #008060;
+    padding: 15px;
+    font-size: 21px;
+    color: white;
+    background-color: #008060;
+    border-radius: 5px;
+    font-family: sans-serif;
+}
+.footer{
+    width: 100%;
+    height: 600px;
+    background-color: #002e25;
+    position: absolute;
+    top: 5100px;
+    overflow: hidden;
+}
+.footer a{
+    position: relative;
+    top: 40px;
+    left: 75px;
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+    margin-left: 35px;
+    font-family: sans-serif;
+}
+.footer hr{
+    color: #153f37;
+    width: 1400px;
+    position: absolute;
+    top: 80px;
+   font-size: 1px;
+   border: 1px solid;
+}
+.footer h3{
+    position: absolute;
+    left: 101px;
+    top: 120px;
+    font-size: 14px;
+    font-family: sans-serif;
+    color: white;
+}
+.footer p{
+    position: relative;
+    left: 100px;
+    top: 150px;
+    padding: 10px;
+    cursor: pointer;
+    color: #b6babf;
+    
+}
+.footer p:hover{
+    color: white;
+}
+.footer .store2{
+    position: relative;
+    left: 200px;
+    bottom: 160px;
+    padding: 10px;
+    cursor: pointer;
+    color: #b6babf;
+
+}
+.footer .store3{
+    position: relative;
+    left: 410px;
+    bottom: 332px;
+    padding: 10px;
+    cursor: pointer;
+    color: #6b718d;  
+}
+.footer .store4 h3{
+    position: absolute;
+    left: 800px;
+    color: white;
+   
+}
+.footer .store4 p{
+    position: relative;
+    left: 788px;
+    top:  -350px;
+    color: #b6babf;
+}
+.footer .store5 h3{
+    position: absolute;
+    left: 1100px;
+    color: white;
+}
+.footer .store5 p{
+    position: relative;
+    left: 1078px;
+    top:  -470px;
+    color: #b6babf;
+}
+.footer .store6 h3{
+    position: absolute;
+    left:1300px;
+}
+
+.footer .store6 p{
+    position: relative;
+    left: 1278px;
+    top:  -740px;
+    color: #b6babf;
+}
+.footer .hr2{
+    color: #153f37;
+    width: 1400px;
+    position: absolute;
+    top: 80px;
+   font-size: 1px;
+   position: absolute;
+   top: 500px;
+   border: 1px solid;
+}
+.footer .icons .fa-facebook{
+font-size: 25px;
+position: absolute;
+top: 530px;
+left: 30px;
+color: white;
+
+padding-right: 100px;
+
+
+}
+.footer .icons .fa-twitter{
+    font-size: 25px;
+    position: absolute;
+    top: 0px;
+    left: 70px;
+    color: white;
+    cursor: pointer;
+    
+    
+    
+    }
+    .footer .icons .fa-youtube{
+        font-size: 25px;
+        position: absolute;
+        top: 0px;
+        left: 140px;
+        color: white;
+        cursor: pointer;
+        
+        
+        
+        }
+        .footer  .fa-instagram{
+            font-size: 25px;
+            position: absolute;
+            top: 0px;
+            left: 210px;
+            color: white;
+            cursor: pointer;
+            
+            
+            }
+            .footer  .fa-linkedin{
+                font-size: 25px;
+                position: absolute;
+                top: 0px;
+                left: 280px;
+                color: white;
+                cursor: pointer;
+                
+                
+                }
+                .footer  .fa-pinterest{
+                    font-size: 25px;
+                    position: absolute;
+                    top: 0px;
+                    left: 350px;
+                    color: white;
+                    cursor: pointer;
+                    
+                    
+                    }
